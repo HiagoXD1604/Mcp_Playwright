@@ -29,33 +29,40 @@ MCP Playwright is an intelligent test automation framework that combines:
 
 ### Key Features
 
-✅ **AI-Assisted Test Creation** - Generate tests automatically from test plans
-✅ **Intelligent Test Planning** - Create comprehensive test scenarios with AI guidance
-✅ **Auto-Healing Tests** - Automatically fix broken tests with element locator updates
-✅ **Multi-Browser Testing** - Run tests across Chromium, Firefox, and WebKit
-✅ **Parallel Execution** - Execute tests efficiently using worker threads
-✅ **HTML Reports** - Detailed test reports with screenshots and traces
-✅ **Accessibility Testing** - Built-in accessibility snapshot capability
+- ✅ **AI-Assisted Test Creation** - Generate tests automatically from test plans
+- ✅ **Intelligent Test Planning** - Create comprehensive test scenarios with AI guidance
+- ✅ **Auto-Healing Tests** - Automatically fix broken tests with element locator updates
+- ✅ **Multi-Browser Testing** - Run tests across Chromium, Firefox, and WebKit
+- ✅ **Parallel Execution** - Execute tests efficiently using worker threads
+- ✅ **HTML Reports** - Detailed test reports with screenshots and traces
+- ✅ **Accessibility Testing** - Built-in accessibility snapshot capability
 
 ## 📁 Project Structure
+```bash
 mcp_playwright/
-├── tests/ # Generated test files
-│ ├── text-box-happy-path.spec.ts
-│ ├── text-box-empty-submit.spec.ts
-│ ├── text-box-invalid-email.spec.ts
-│ ├── text-box-long-text.spec.ts
-│ └── text-box-special-chars.spec.ts
-├── e2e/ # End-to-end test seeds
-│ ├── seed.spec.ts # Test setup seed
-│ └── example.spec.ts # Example tests
-├── specs/ # Test plans and documentation
-│ ├── README.md
-│ └── text-box-test-plan.md # Example test plan
-├── playwright-report/ # Generated HTML test reports
-├── test-results/ # Test execution results
-├── playwright.config.ts # Playwright configuration
-├── package.json # Project dependencies
-└── README.md # This file
+├── tests/                       # Generated test files
+│   ├── text-box-happy-path.spec.ts
+│   ├── text-box-empty-submit.spec.ts
+│   ├── text-box-invalid-email.spec.ts
+│   ├── text-box-long-text.spec.ts
+│   └── text-box-special-chars.spec.ts
+│
+├── e2e/                         # End-to-end test seeds
+│   ├── seed.spec.ts             # Test setup seed
+│   └── example.spec.ts          # Example tests
+│
+├── specs/                       # Test plans and documentation
+│   ├── README.md
+│   └── text-box-test-plan.md    # Example test plan
+│
+├── playwright-report/           # Generated HTML test reports
+├── test-results/                # Test execution results
+│
+├── playwright.config.ts         # Playwright configuration
+├── package.json                 # Project dependencies
+└── README.md                    # This file
+
+```
 
 
 ## 🔧 Prerequisites
